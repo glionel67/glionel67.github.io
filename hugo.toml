@@ -1,0 +1,78 @@
+baseURL = 'http://example.org/'
+title = 'Lionel G. Github personal page'
+theme = 'hugo-coder'
+languageCode = 'en'
+defaultcontentlanguage = "en"
+paginate = 20
+enableEmoji = true
+
+#disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+noClasses = false
+
+[params]
+  author = "Lionel GENEVE"
+  #license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+  info = "Robotics enthousiast"
+  description = "Lionel Génevé's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/sleeping_lion.jpg"
+  #gravatar = "lionel.geneve@gmail.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+  
+  rtl = false
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+  
+  math = true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/glionel67/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/glionel67/"
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/lionel-geneve-3b205159"
+
+# Menu links
+[[menu.main]]
+  name = "Projects"
+  weight = 1
+  url  = "projects/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+#[[menu.main]]
+  #name = "Contact me"
+  #weight = 3
+  #url = "contact/"
