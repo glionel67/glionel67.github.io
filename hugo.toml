@@ -1,5 +1,5 @@
 baseURL = 'http://example.org/'
-title = 'Lionel G. Github personal page'
+title = 'Lionel G. Github personal website'
 theme = 'hugo-coder'
 languageCode = 'en'
 defaultcontentlanguage = "en"
@@ -67,7 +67,7 @@ noClasses = false
 [[menu.main]]
   name = "Projects"
   weight = 1
-  url  = "projects/"
+  url = "projects/main"
 [[menu.main]]
   name = "About"
   weight = 2
